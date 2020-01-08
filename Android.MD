@@ -27,7 +27,7 @@ compile 'vip.corelink.rtls.app:sensor:0.0.3'
 ## Usage
 
 kotlin
-```kt
+```kotlin
 import vip.corelink.rtls.app.sensor.Ble
 
 val ble = Ble(context)
@@ -42,12 +42,12 @@ ble.stop()
 ```
 
 ### Constructor
-```kt
+```kotlin
 class Ble(context: Context)
 ```
 
 ### Properties
-```kt
+```kotlin
 var id: Int
 // 0 - 65535 default value: 0
 var customFlag: Int
@@ -64,7 +64,7 @@ var txPowerLevel: Int
 ```
 
 ### Methods
-```kt
+```kotlin
 /**
 * Start advertising
 */
